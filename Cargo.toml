@@ -1,0 +1,6 @@
+[package]
+name = "diesel_queryable_prevents_unused_warning_repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
