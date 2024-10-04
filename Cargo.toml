@@ -1,6 +1,8 @@
 [package]
-name = "diesel_queryable_prevents_unused_warning_repro"
-version = "0.1.0"
-edition = "2021"
+	edition = "2021"
+	name = "diesel_queryable_prevents_unused_warning_repro"
+	version = "0.1.0"
 
 [dependencies]
+	diesel = "2"
+	serde = { version = "1", features = ["derive"] }
